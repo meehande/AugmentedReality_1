@@ -1,0 +1,30 @@
+﻿Build started 09/02/2016 17:46:28.
+     1>Project "C:\Users\Deirdre Meehan\Desktop\AugmentedReality\AR_Project_1\OpenCVExample\OpenCVExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Vision\opencv\build /IC:\Vision\opencv\build\include\opencv /IC:\Vision\opencv\sources\modules\core\include /IC:\Vision\opencv\build\include /IC:\Vision\opencv\sources\modules\imgproc\include /IC:\Vision\opencv\sources\modules\flann\include /IC:\Vision\opencv\sources\modules\videostab\include /IC:\Vision\opencv\sources\modules\ts\include /IC:\Vision\opencv\sources\modules\stitching\include /IC:\Vision\opencv\sources\modules\calib3d\include /IC:\Vision\opencv\sources\modules\photo\include /IC:\Vision\opencv\sources\modules\objdetect\include /IC:\Vision\opencv\sources\modules\video\include /IC:\Vision\opencv\sources\modules\ml\include /IC:\Vision\opencv\sources\modules\features2d\include /IC:\Vision\opencv\sources\modules\highgui\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CameraCalibration.cpp main.cpp
+         main.cpp
+         CameraCalibration.cpp
+     1>c:\users\deirdre meehan\desktop\augmentedreality\ar_project_1\opencvexample\cameracalibration.cpp(307): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\deirdre meehan\desktop\augmentedreality\ar_project_1\opencvexample\cameracalibration.cpp(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         Generating Code...
+     1>c:\users\deirdre meehan\desktop\augmentedreality\ar_project_1\opencvexample\main.cpp(82): warning C4700: uninitialized local variable 'choice' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Deirdre Meehan\Desktop\AugmentedReality\AR_Project_1\OpenCVExample\Debug\OpenCVExample.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Vision\opencv\build\x86\vc11\staticlib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_hal300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib libtiffd.lib libpngd.lib libjpegd.lib libjasperd.lib IlmImfd.lib libwebpd.lib ippicvmt.lib zlibd.lib comctl32.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Deirdre Meehan\Desktop\AugmentedReality\AR_Project_1\OpenCVExample\Debug\OpenCVExample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Deirdre Meehan\Desktop\AugmentedReality\AR_Project_1\OpenCVExample\Debug\OpenCVExample.lib" /MACHINE:X86 Debug\Binary.obj
+         Debug\CameraCalibration.obj
+         Debug\Edges.obj
+         Debug\Features.obj
+         Debug\Geometric.obj
+         Debug\Histograms.obj
+         Debug\Images.obj
+         Debug\main.obj
+         Debug\Recognition.obj
+         Debug\Utilities.obj
+         Debug\Video.obj
+         OpenCVExample.vcxproj -> C:\Users\Deirdre Meehan\Desktop\AugmentedReality\AR_Project_1\OpenCVExample\Debug\OpenCVExample.exe
+     1>Done Building Project "C:\Users\Deirdre Meehan\Desktop\AugmentedReality\AR_Project_1\OpenCVExample\OpenCVExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.08
